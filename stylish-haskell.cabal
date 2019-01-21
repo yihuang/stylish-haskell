@@ -49,10 +49,10 @@ Library
     Paths_stylish_haskell
 
   Build-depends:
-    aeson            >= 0.6    && < 1.4,
+    aeson            >= 0.6    && < 1.5,
     base             >= 4.8    && < 5,
     bytestring       >= 0.9    && < 0.11,
-    containers       >= 0.3    && < 0.6,
+    containers       >= 0.3    && < 0.7,
     directory        >= 1.2.3  && < 1.4,
     filepath         >= 1.1    && < 1.5,
     file-embed       >= 0.0.10 && < 0.1,
@@ -60,7 +60,7 @@ Library
     mtl              >= 2.0    && < 2.3,
     semigroups       >= 0.18   && < 0.19,
     syb              >= 0.3    && < 0.8,
-    yaml             >= 0.7    && < 0.9
+    yaml             >= 0.7    && < 0.12
 
 Executable stylish-haskell
   Ghc-options:    -Wall
@@ -72,17 +72,17 @@ Executable stylish-haskell
     strict               >= 0.3  && < 0.4,
     optparse-applicative >= 0.12 && < 0.15,
     -- Copied from regular dependencies...
-    aeson            >= 0.6    && < 1.4,
+    aeson            >= 0.6    && < 1.5,
     base             >= 4.8    && < 5,
     bytestring       >= 0.9    && < 0.11,
-    containers       >= 0.3    && < 0.6,
+    containers       >= 0.3    && < 0.7,
     directory        >= 1.2.3  && < 1.4,
     filepath         >= 1.1    && < 1.5,
     file-embed       >= 0.0.10 && < 0.1,
     haskell-src-exts >= 1.18   && < 1.21,
     mtl              >= 2.0    && < 2.3,
     syb              >= 0.3    && < 0.8,
-    yaml             >= 0.7    && < 0.9
+    yaml             >= 0.7    && < 0.12
 
 Test-suite stylish-haskell-tests
   Ghc-options:    -Wall
@@ -121,17 +121,17 @@ Test-suite stylish-haskell-tests
     test-framework       >= 0.4 && < 0.9,
     test-framework-hunit >= 0.2 && < 0.4,
     -- Copied from regular dependencies...
-    aeson            >= 0.6    && < 1.4,
+    aeson            >= 0.6    && < 1.5,
     base             >= 4.8    && < 5,
     bytestring       >= 0.9    && < 0.11,
-    containers       >= 0.3    && < 0.6,
+    containers       >= 0.3    && < 0.7,
     directory        >= 1.2.3  && < 1.4,
     filepath         >= 1.1    && < 1.5,
     file-embed       >= 0.0.10 && < 0.1,
     haskell-src-exts >= 1.18   && < 1.21,
     mtl              >= 2.0    && < 2.3,
     syb              >= 0.3    && < 0.8,
-    yaml             >= 0.7    && < 0.9
+    yaml             >= 0.7    && < 0.12
 
 Source-repository head
   Type:     git
